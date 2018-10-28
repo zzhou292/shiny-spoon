@@ -10,11 +10,14 @@ and missed deadlines.
 
 ## How we will assign (and reassign) tasks
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 
 =======
 !!!!!
 xxxxx
 >>>>>>> 21b3c860368ed9dee6026373d6fbb255c1e81406
+>>>>>>> c56188be7839778a0dbec0e5015def52d13464dd
 
 
 ## How will we will track progress (and follow-up) on completion of tasks
