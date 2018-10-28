@@ -9,16 +9,7 @@ and will hopefully lead to productive team work with fewer conflicts
 and missed deadlines.
 
 ## How we will assign (and reassign) tasks
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
-!!!!!
-xxxxx
->>>>>>> 21b3c860368ed9dee6026373d6fbb255c1e81406
->>>>>>> c56188be7839778a0dbec0e5015def52d13464dd
-
+We will design the program structure and detailed implementation (class and methods) together. In our program, there will be two classes -- student class (including info fields, add grade method, delete grade method, and get average method) and hashtable class (used to store student node). Two people will be assigned to finish each class and its inner methods. After classes has been finished, we will work on putting them together and programming Gui together.
 
 ## How will we will track progress (and follow-up) on completion of tasks
 
