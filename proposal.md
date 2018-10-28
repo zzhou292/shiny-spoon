@@ -75,6 +75,7 @@ Make a convenient way to access students' grades, and create a program to help p
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 
+The function of the implementation contains: add, search, edit, list. The homepage contains the 4 buttons which would carry out tasks of adding data in the list, retrieving data from the list. User click one of the button to get into the subpage. In the add page, user enter the name or student id in the list. In the edit page, enter the student name or ID and their grade information to be stored in the list. In the search page, enter student name or ID to retrieve the student information from the list. In the list page, get the list. 
 
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
