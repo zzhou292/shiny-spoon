@@ -12,7 +12,7 @@ and missed deadlines.
 We will design the program structure and detailed implementation (class and methods) together. In our program, there will be two classes -- student class (including info fields, add grade method, delete grade method, and get average method) and hashtable class (used to store student node). Two people will be assigned to finish each class and its inner methods. After classes has been finished, we will work on putting them together and programming Gui together.
 
 ## How will we will track progress (and follow-up) on completion of tasks
-
+Our team is going to make a detailed schedule, and by the due date of each assigned job, the final result must be synced to the github repository. If anyone missed a due date, we will get together in CS lab and finish the job together. We will use group message, E-mail, and online meeting softwares to keep tracking our current status as well.
 
 
 ## How will will communicate difficulties with a task assigned to us
