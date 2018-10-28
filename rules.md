@@ -27,6 +27,5 @@ We will make sure to message the whole group 3 days in advance of the due date. 
 
 
 ## Add any other rules that your team establishes to help each other work effectively together
-
-
+The group leader will send notification before the due dates of each assigned work, in order to make sure our team strictly follow the schedule.
 
