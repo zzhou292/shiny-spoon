@@ -1,4 +1,4 @@
-# X-Team NN Project Proposal
+# X-Team 39 SGTS-Student Grade Tracking System Proposal
 
 See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code for tips on using *Markdown* tags to format __.md__ files
 
@@ -29,21 +29,48 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 
 ## Problem Description
 
-Briefly describe a problem that your team would like to solve.  
-Describe at a high level a program that could solve that problem.
+Make a convenient way to access students' grades, and create a program to help professors to track the performance of students. 
 
 ## Questions to answer for Exercise #2
 
 1. Name: Give your project proposal a name (and edit the top line of this file)
 
+	Proposal to create a student grade tracking system
 
 
 2. Output: Describe the output your program will produce.  Include and example format of the output produced.
+	
+	When the user asks for the performance of a student, the student's information, grade for each test, class average for each test and average score will be generated. When the user asks for the list of all students in the database, the program will show the names and the IDs of all students. 
 
+	Sample Output:
+	a) A student's info
+	--------------------
+	Student ID: 123456789
+	Student Name: xxxxx
+	
+	Grades:
+	Test1:90	
+	Test2:98	
+	Test3:87	
+	...
 
+	Performance Analysis:
+	Average:79
+	Highest:90
+	Lowest:67
+	---------------------
+
+	b) List of students
+	---------------------
+	AAAA 123456789
+	BBBB 222222222
+	CCCC 313131311
+	--------------------
+	
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
 
+	
 
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
