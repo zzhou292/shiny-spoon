@@ -9,7 +9,12 @@ and will hopefully lead to productive team work with fewer conflicts
 and missed deadlines.
 
 ## How we will assign (and reassign) tasks
+<<<<<<< HEAD
 
+=======
+!!!!!
+xxxxx
+>>>>>>> 21b3c860368ed9dee6026373d6fbb255c1e81406
 
 
 ## How will we will track progress (and follow-up) on completion of tasks
