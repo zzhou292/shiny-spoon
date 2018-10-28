@@ -31,6 +31,8 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 
 Make a convenient way to access students' grades, and create a program to help professors to track the performance of students. 
 
+
+
 ## Questions to answer for Exercise #2
 
 1. Name: Give your project proposal a name (and edit the top line of this file)
@@ -69,8 +71,35 @@ Make a convenient way to access students' grades, and create a program to help p
 	
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
-
 	
+	In order to add a student, a String "Name" and a int number is required.
+	After a student's info is added, we can add grade to that student by inputting a String 	"Test name" and the score of that test, which is a int number.
+	After a student's info and grades are added, we can view the info and all scores of the 	specific student by inputting the ID or the name of a student.
+	All students' info will be displayed if user choose the 'list' button.
+
+	-----Add student------
+	John Fisher 123456789
+	----------------------
+
+	-----Add Grade--------
+	John Fisher ChemMidTerm 97
+	----------------------
+	or
+	----------------------
+	123456789 ChemMidTerm 64
+	----------------------
+
+	-----Search for student------
+	John Fisher	
+	-----------------------------
+	or 
+	-----------------------------
+	123456789
+	-----------------------------
+
+	-----List all students-------
+	list
+	-------------------------------
 
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
@@ -80,8 +109,19 @@ The function of the implementation contains: add, search, edit, list. The homepa
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
 
-
-
+	We could implement this using one hash table class and a general node class that takes comparable variables as parameters.
+		HashTable - The hash table interface will include add, search, and remove. This will be used to store the given students' data in an efficient manner.
+			add - used to add a student's information into the hash table
+			search - used to find a student's information
+			remove- used to remove a student's information from the hash table
+			
+			
+		Node - The node class will allow Integer and String to be used for the key and any compable types for the information stored within the node. This will be used to store the given student's grades and link them to their student ID and Name.
+		Its interface will include average, lowest, and highest.
+			average - calculates a student's average of their test score.
+			lowest - gets a student's lowest test score
+			highest - gets a student's highest test score
+		
 Name each interface or class and briefly describe its function or purpose.
 
 
