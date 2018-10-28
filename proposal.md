@@ -29,9 +29,7 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 
 ## Problem Description
 
-Make a convenient way to access students' grades, and create a program to help professors to track the performance of students. 
-
-
+Make a convenient way to access students' grades, and create a program to help professors to track the performance of students. The program will implement a hashtable to store each student's grades and personal information.
 
 ## Questions to answer for Exercise #2
 
@@ -110,19 +108,18 @@ The function of the implementation contains: add, search, edit, list. The homepa
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
 
 	We could implement this using one hash table class and a general node class that takes comparable variables as parameters.
-		HashTable - The hash table interface will include add, search, and remove. This will be used to store the given students' data in an efficient manner.
-			add - used to add a student's information into the hash table
-			search - used to find a student's information
-			remove- used to remove a student's information from the hash table
+	HashTable - The hash table interface will include add, search, and remove. This will be used to store the given students' data in an efficient manner.
+	add - used to add a student's information into the hash table
+	search - used to find a student's information
+	remove- used to remove a student's information from the hash table
 			
 			
-		Node - The node class will allow Integer and String to be used for the key and any compable types for the information stored within the node. This will be used to store the given student's grades and link them to their student ID and Name.
-		Its interface will include average, lowest, and highest.
-			average - calculates a student's average of their test score.
-			lowest - gets a student's lowest test score
-			highest - gets a student's highest test score
-		
-Name each interface or class and briefly describe its function or purpose.
+	Node - The node class will allow Integer and String to be used for the key and any compable types for the information stored within the node. This will be used to store the given student's grades and link them to their student ID and Name.
+	Its interface will include average, lowest, and highest.
+	average - calculates a student's average of their test score.
+	lowest - gets a student's lowest test score
+	highest - gets a student's highest test score
+
 
 
 ## Edit and Submit this file and any figures referenced by this document.
