@@ -69,8 +69,35 @@ Make a convenient way to access students' grades, and create a program to help p
 	
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
-
 	
+	In order to add a student, a String "Name" and a int number is required.
+	After a student's info is added, we can add grade to that student by inputting a String 	"Test name" and the score of that test, which is a int number.
+	After a student's info and grades are added, we can view the info and all scores of the 	specific student by inputting the ID or the name of a student.
+	All students' info will be displayed if user choose the 'list' button.
+
+	-----Add student------
+	John Fisher 123456789
+	----------------------
+
+	-----Add Grade--------
+	John Fisher ChemMidTerm 97
+	----------------------
+	or
+	----------------------
+	123456789 ChemMidTerm 64
+	----------------------
+
+	-----Search for student------
+	John Fisher	
+	-----------------------------
+	or 
+	-----------------------------
+	123456789
+	-----------------------------
+
+	-----List all students-------
+	list
+	-------------------------------
 
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
